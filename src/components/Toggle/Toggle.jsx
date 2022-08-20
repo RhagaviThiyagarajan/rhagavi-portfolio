@@ -1,7 +1,6 @@
-import React,{createContext,useReducer} from 'react'
+import React from 'react'
 import './Toggle.css';
-import sun from '@iconscout/react-unicons/icons/uil-sun';
-import moon from '@iconscout/react-unicons/icons/uil-moon';
+
 import { themeContext } from '../../Context';
 import {useContext} from 'react'
 export default function Toggle()

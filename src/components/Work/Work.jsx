@@ -10,11 +10,11 @@ import {Link} from 'react-scroll'
 function Work() {
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
-  const transition=
-  {
-    duration:1,
-    type:'spring',
-  }
+  // const transition=
+  // {
+  //   duration:1,
+  //   type:'spring',
+  // }
   return (
     <div className="works">
       <div className="awesome">
